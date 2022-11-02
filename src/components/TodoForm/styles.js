@@ -35,8 +35,6 @@ export const InputWrapper = styled.div `
         border-radius: 10px;
         border: none;
         padding: 6px;
-
-
     }
 `
 
