@@ -23,8 +23,6 @@ export const InputWrapper = styled.div `
         border: none;
         margin-bottom: 8px;
         padding: 6px;
-
-        
     }
 
     textarea {
