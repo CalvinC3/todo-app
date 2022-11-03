@@ -21,11 +21,12 @@ function App() {
         )}>
           <div className="App-header">
             <ThemeSelector />
+            <TodoForm />
+
           </div>
           <div className="body-wrapper">
-
             <div className='content-wrapper'>
-              <TodoForm />
+              {/* <TodoForm /> */}
               <CardList />
             </div>
           </div>

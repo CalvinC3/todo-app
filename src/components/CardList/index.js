@@ -1,17 +1,10 @@
-import { useEffect } from 'react'
-import { useSelector, useDispatch } from 'react-redux'
 import { MainWrapper } from './styles'
-import { useStoreState, useStoreActions } from 'easy-peasy';
+import { useStoreState } from 'easy-peasy';
 
 import { CardItem } from './CardItem';
 
 const CardList = () => {
     const todos = useStoreState((state) => state.todos);
-
-    useEffect(() => {
-        console.log('watch todos', todos)
-    }, [todos])
-
 
     return (
         <MainWrapper>

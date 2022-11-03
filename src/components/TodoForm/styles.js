@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainWrapper = styled.div`
     display: flex;
     height: 18vh;
-    width: 100%;
+    width: 50%;
     background: ${props => props.theme === 'dark' ? "#353940" : "#ededed"};
     padding: 10px;
     border-radius: 18px;
@@ -17,7 +17,7 @@ export const InputWrapper = styled.div `
 
 
     input {
-        width: 95%;
+        width: 98%;
         height: 2rem;
         border-radius: 10px;
         border: none;
@@ -26,9 +26,9 @@ export const InputWrapper = styled.div `
     }
 
     textarea {
-        width:95%;
-        max-width:95%;
-        min-width:95%;
+        width:98%;
+        max-width:98%;
+        min-width:98%;
         max-height: 3.5rem;
         border-radius: 10px;
         border: none;
@@ -37,7 +37,7 @@ export const InputWrapper = styled.div `
 `
 
 export const SubmitButton = styled.button`
-    width: 97%;
+    width: 100%;
     min-height: 38px;
     background: #6795b1f2;
     border-radius: 8px;

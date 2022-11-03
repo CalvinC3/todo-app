@@ -5,10 +5,14 @@
 
 .bg-dark {
   background-image: url("./assets/dark.png");
+  -webkit-transition: background-image 0.5s ease-in-out;
+transition: background-image 0.5s ease-in-out;
 }
 
 .bg-light {
   background-image: url("./assets/light.png");
+  -webkit-transition: background-image 0.5s ease-in-out;
+transition: background-image 0.5s ease-in-out;
 }
 
 .App-logo {
@@ -25,16 +29,20 @@
 .dark-theme {
   background-color: #282c34f2;
   color: white;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 
 }
 
 .light-theme {
   background-color: #dadbddd1;
   color: black;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .App-header {
-  height: 10vh;
+  height: 22vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,8 +51,8 @@
 }
 
 .body-wrapper {
-  min-height: 90vh;
-  max-height: 90vh;
+  min-height: 78vh;
+  max-height: 78vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,8 +63,8 @@
 }
 
 .content-wrapper {
-  margin-top: 20px;
-  width: 50%;
+  margin-top: 12px;
+  width: 65%;
 }
 
 
